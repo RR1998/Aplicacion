@@ -22,8 +22,8 @@ public class CadillacsRacing {
     public static void main(String[] args) {
         Logo logo = new Logo();
         Sonido au = new Sonido();
-        au.start();
         logo.setVisible(true);
+        au.start();
         
        
         

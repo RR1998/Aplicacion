@@ -21,7 +21,7 @@ public class Sonido extends Thread {
     @Override
     public void run() {
         AudioClip audio;
-        audio  = java.applet.Applet.newAudioClip(getClass().getResource("/cadillacs/racing/gta2.wav"));
+        audio  = java.applet.Applet.newAudioClip(getClass().getResource("/cadillacs/racing/gta3.wav"));
         audio.loop();
      
     }

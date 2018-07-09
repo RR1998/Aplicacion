@@ -17,6 +17,8 @@ import java.awt.event.ActionListener;
 import static javax.swing.BorderFactory.createRaisedBevelBorder;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import tienda.entidades.Jugador;
+import tienda.vista.Tienda;
 
 /**
  *
@@ -25,6 +27,7 @@ import javax.swing.JPanel;
 public class VentanaA1 extends JFrame{
     public Image imagenFondo;
     public URL fondoA;
+    Jugador jugador = new Jugador();
     JLabel eti_MiJuego;
     JButton Boton_Tienda, Boton_SeleccionPista, Boton_Inicio;
     
@@ -80,9 +83,19 @@ public class VentanaA1 extends JFrame{
         Boton_Tienda.addActionListener(new ActionListener(){
             @Override
             public void actionPerformed(ActionEvent e) {
-                VentanaA2 nextVA2 = new VentanaA2();
+                Jugador jugador = new Jugador();
+                jugador.setCartera(500);
+                jugador.setIdJugadr(1);
+                jugador.setNombre("Daniel");
+                VentanaA2 nextVA2 = new VentanaA2(jugador);
                 nextVA2.setVisible(true);
                 VentanaA1.this.dispose();
+//                jugador.setCartera(500);
+//                jugador.setIdJugadr(1);
+//                jugador.setNombre("Daniel");
+//                Tienda tienda = new Tienda(jugador);
+//                tienda.setVisible(true);
+//                VentanaA1.this.dispose();
             }
             
         });

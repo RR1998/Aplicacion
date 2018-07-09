@@ -30,6 +30,7 @@ import java.io.FileNotFoundException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import motor.Carro;
+import tienda.entidades.Jugador;
 
 /**
  *
@@ -99,7 +100,8 @@ public class VentanaA3 extends JFrame {
         Boton_Tienda.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                VentanaA2 nextVA2 = new VentanaA2();
+                Jugador jugador = new Jugador();
+                VentanaA2 nextVA2 = new VentanaA2(jugador);
                 nextVA2.setVisible(true);
                 VentanaA3.this.dispose();
             }

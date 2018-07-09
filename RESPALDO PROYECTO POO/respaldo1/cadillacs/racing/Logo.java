@@ -37,7 +37,7 @@ public class Logo extends JFrame{
 //        audio.loop();
         this.setSize(700, 500);//Estableciendo tamaño de la venta A3.
         this.setLocationRelativeTo(null);//Centrando ventana en la pantalla.
-        this.setTitle("LOGO"); //Estableciendo titulo de la Venta A3.
+        this.setTitle("Cadillac's Racing"); //Estableciendo titulo de la Venta A3.
         this.setResizable(false);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);//Cuando cierre la ventana A2 automaticamente se terminara el programa.
         
