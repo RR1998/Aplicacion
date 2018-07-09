@@ -89,7 +89,7 @@ public class VentanaA1 extends JFrame{
                 jugador.setNombre("Daniel");
                 VentanaA2 nextVA2 = new VentanaA2(jugador);
                 nextVA2.setVisible(true);
-                VentanaA1.this.dispose();
+                
 //                jugador.setCartera(500);
 //                jugador.setIdJugadr(1);
 //                jugador.setNombre("Daniel");
