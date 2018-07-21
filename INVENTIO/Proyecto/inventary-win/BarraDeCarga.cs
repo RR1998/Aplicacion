@@ -24,6 +24,7 @@ namespace inventio_win
             if (progressBar1.Value == 100) {
                 timer1.Stop();
                 Dispose();
+                //Sirve para calcular la posicion de la barra de carga 
             }
         }
     }
