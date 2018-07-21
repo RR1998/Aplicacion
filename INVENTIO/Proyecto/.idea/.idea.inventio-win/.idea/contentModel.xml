@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\usuario\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_inventio-win.-148627451.00" t="ExcludeRecursive" />
+    <e p="C:\Users\usuario\Desktop\INVENTIO\Proyecto" t="IncludeFlat">
+      <e p="inventary-win" t="IncludeRecursive">
+        <e p="About.cs" t="Include" />
+        <e p="About.Designer.cs" t="Include" />
+        <e p="About.resx" t="Include" />
+        <e p="AddToSellDialog.cs" t="Include" />
+        <e p="AddToSellDialog.Designer.cs" t="Include" />
+        <e p="AddToSellDialog.resx" t="Include" />
+        <e p="app.config" t="Include" />
+        <e p="BarraDeCarga.cs" t="Include" />
+        <e p="BarraDeCarga.Designer.cs" t="Include" />
+        <e p="BarraDeCarga.resx" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ClasePrincipal.cs" t="Include" />
+        <e p="ClasePrincipal.Designer.cs" t="Include" />
+        <e p="ClasePrincipal.resx" t="Include" />
+        <e p="Connection.cs" t="Include" />
+        <e p="Directory.cs" t="Include" />
+        <e p="Directory.Designer.cs" t="Include" />
+        <e p="Directory.resx" t="Include" />
+        <e p="History.cs" t="Include" />
+        <e p="History.Designer.cs" t="Include" />
+        <e p="History.resx" t="Include" />
+        <e p="Input.cs" t="Include" />
+        <e p="Input.Designer.cs" t="Include" />
+        <e p="Input.resx" t="Include" />
+        <e p="inventarioPalomudo.sql" t="Include" />
+        <e p="inventio-win.csproj" t="IncludeRecursive" />
+        <e p="Inventory.cs" t="Include" />
+        <e p="Inventory.Designer.cs" t="Include" />
+        <e p="Inventory.resx" t="Include" />
+        <e p="Login.cs" t="Include" />
+        <e p="Login.Designer.cs" t="Include" />
+        <e p="Login.resx" t="Include" />
+        <e p="newPerson.cs" t="Include" />
+        <e p="newPerson.Designer.cs" t="Include" />
+        <e p="newPerson.resx" t="Include" />
+        <e p="newProduct.cs" t="Include" />
+        <e p="newProduct.Designer.cs" t="Include" />
+        <e p="newProduct.resx" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="OperationObj.cs" t="Include" />
+        <e p="OperationWindow.cs" t="Include" />
+        <e p="OperationWindow.Designer.cs" t="Include" />
+        <e p="OperationWindow.resx" t="Include" />
+        <e p="PersonObj.cs" t="Include" />
+        <e p="ProductObj.cs" t="Include" />
+        <e p="ProductsWindow.cs" t="Include" />
+        <e p="ProductsWindow.Designer.cs" t="Include" />
+        <e p="ProductsWindow.resx" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Re.cs" t="Include" />
+        <e p="Re.Designer.cs" t="Include" />
+        <e p="Re.resx" t="Include" />
+        <e p="SellDialog.cs" t="Include" />
+        <e p="SellDialog.Designer.cs" t="Include" />
+        <e p="SellDialog.resx" t="Include" />
+        <e p="SellObj.cs" t="Include" />
+      </e>
+      <e p="inventio-win.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

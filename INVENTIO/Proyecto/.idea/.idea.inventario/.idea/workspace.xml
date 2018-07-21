@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdf31806-64da-44fd-a03d-92d2457ef7c0" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/CadillacsRacing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/Creditos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/Fondo juego 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/Fondo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/Fondo_Mijuego.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/ImagenA.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/Instrucciones.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/Logo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/RedCar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/Sonido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/VentanaA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/VentanaA1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/VentanaA2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/VentanaA3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/VentanaA5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/VentanaB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/VentanaC.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/VentanaC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/VentanaD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/cadillac.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/camarozl2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/carrera.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/challenger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/charger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/coche_2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/comodin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/estrella.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/gta3.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/images.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/llantas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/nuevoFondo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/cadillacs/racing/tienda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/dataBase/Script.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/motor/AudioCarrera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/motor/Autopista.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/motor/Carro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/motor/ModeloAutos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/motor/TimeListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/motor/carrocaro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/motor/coche_2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/tienda/connection/Conexion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/tienda/connection/tienda.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/tienda/dao/BaseDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/tienda/dao/BoosterDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/tienda/dao/CompraDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/tienda/dao/DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/tienda/dao/JugadorDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/tienda/entidades/Booster.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/tienda/entidades/Compra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/tienda/entidades/Jugador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/tienda/vista/Tienda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/tienda/vista/camarozl1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/usuarios/Usuarios.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/usuarios/Usuarios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/usuarios/imagenFondoUsuariosf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RESPALDO PROYECTO POO/respaldo1/usuarios/logIn.jpg" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdf31806-64da-44fd-a03d-92d2457ef7c0" name="Default" comment="" />
+      <created>1532133648347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532133648347</updated>
+      <workItem from="1532133659770" duration="202000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="202000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3293718" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>
