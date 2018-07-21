@@ -1,0 +1,76 @@
+c:\users\agustin\documents\visual studio 2013\Projects\inventary-win\inventary-win\bin\Debug\inventary-win.exe
+c:\users\agustin\documents\visual studio 2013\Projects\inventary-win\inventary-win\bin\Debug\inventary-win.pdb
+c:\users\agustin\documents\visual studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio-win.csprojResolveAssemblyReference.cache
+c:\users\agustin\documents\visual studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio-win.csproj.GenerateResource.Cache
+c:\users\agustin\documents\visual studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventary-win.exe
+c:\users\agustin\documents\visual studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventary-win.pdb
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.About.resources
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.Directory.resources
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.Form1.resources
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.History.resources
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.Input.resources
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.Inventory.resources
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.Login.resources
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.newPerson.resources
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.newProduct.resources
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.OperationWindow.resources
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.ProductsWindow.resources
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.Properties.Resources.resources
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.AddToSellDialog.resources
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.Re.resources
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.SellDialog.resources
+C:\Users\Agustin\Documents\Visual Studio 2013\Projects\inventary-win\inventary-win\obj\Debug\inventio_win.Splash.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio-win.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.About.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.Directory.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.Form1.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.History.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.Input.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.Inventory.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.Login.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.newPerson.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.newProduct.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.OperationWindow.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.ProductsWindow.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.Properties.Resources.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.AddToSellDialog.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.Re.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.SellDialog.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio_win.Splash.resources
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio-win.csproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventio-win.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventary-win.exe
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\obj\Debug\inventary-win.pdb
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\bin\Debug\inventary-win.exe.config
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\bin\Debug\inventary-win.exe
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\bin\Debug\inventary-win.pdb
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\bin\Debug\MySql.Data.dll
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\bin\Debug\Google.Protobuf.dll
+C:\Users\usuario\Desktop\INVENTIO\inventio-win-1.0\inventary-win\bin\Debug\MySql.Data.xml
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\bin\Debug\inventary-win.exe.config
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\bin\Debug\inventary-win.exe
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\bin\Debug\inventary-win.pdb
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\bin\Debug\MySql.Data.dll
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\bin\Debug\Google.Protobuf.dll
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\bin\Debug\MySql.Data.xml
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio-win.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.About.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.Directory.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.Form1.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.History.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.Input.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.Inventory.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.Login.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.newPerson.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.newProduct.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.OperationWindow.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.ProductsWindow.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.Properties.Resources.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.AddToSellDialog.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.Re.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.SellDialog.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio_win.Splash.resources
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio-win.csproj.GenerateResource.Cache
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventio-win.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventary-win.exe
+C:\Users\usuario\Desktop\INVENTIO\Proyecto\inventary-win\obj\Debug\inventary-win.pdb

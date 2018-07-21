@@ -1,0 +1,212 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{0587B2D6-2A63-4D3C-93D0-B4FCB46F007D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Proyecto</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 8.0.11\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddToSellDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddToSellDialog.Designer.cs">
+      <DependentUpon>AddToSellDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarraDeCarga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BarraDeCarga.Designer.cs">
+      <DependentUpon>BarraDeCarga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClasePrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClasePrincipal.Designer.cs">
+      <DependentUpon>ClasePrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs" />
+    <Compile Include="Directory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Directory.Designer.cs">
+      <DependentUpon>Directory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="History.Designer.cs">
+      <DependentUpon>History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Input.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Input.Designer.cs">
+      <DependentUpon>Input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory.Designer.cs">
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newPerson.Designer.cs">
+      <DependentUpon>newPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newProduct.Designer.cs">
+      <DependentUpon>newProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperationObj.cs" />
+    <Compile Include="OperationWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OperationWindow.Designer.cs">
+      <DependentUpon>OperationWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PersonObj.cs" />
+    <Compile Include="ProductObj.cs" />
+    <Compile Include="ProductsWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductsWindow.Designer.cs">
+      <DependentUpon>ProductsWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Settings.Designer.cs" />
+    <Compile Include="Re.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re.Designer.cs">
+      <DependentUpon>Re.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SellDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SellDialog.Designer.cs">
+      <DependentUpon>SellDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SellObj.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddToSellDialog.resx">
+      <DependentUpon>AddToSellDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarraDeCarga.resx">
+      <DependentUpon>BarraDeCarga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClasePrincipal.resx">
+      <DependentUpon>ClasePrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Directory.resx">
+      <DependentUpon>Directory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="History.resx">
+      <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Input.resx">
+      <DependentUpon>Input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory.resx">
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newPerson.resx">
+      <DependentUpon>newPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newProduct.resx">
+      <DependentUpon>newProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperationWindow.resx">
+      <DependentUpon>OperationWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductsWindow.resx">
+      <DependentUpon>ProductsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="Re.resx">
+      <DependentUpon>Re.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SellDialog.resx">
+      <DependentUpon>SellDialog.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="inventarioPalomudo.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
