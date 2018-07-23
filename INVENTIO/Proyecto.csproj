@@ -1,0 +1,343 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{F2461879-DB21-4252-A5BF-FB444BC4E82F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Proyecto</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=8.0.11.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.8.8\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.8.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.8.8\Assemblies\v4.0\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity.EF6, Version=6.8.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.8.8\Assemblies\v4.0\MySql.Data.Entity.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.8.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.8.8\Assemblies\v4.0\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\INVENTIO\v15\.suo" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="app.config" />
+    <None Include="Proyecto\.idea\.idea.inventario\.idea\.name" />
+    <None Include="Proyecto\.idea\.idea.inventario\riderModule.iml" />
+    <None Include="Proyecto\.idea\.idea.inventio-win\.idea\.name" />
+    <None Include="Proyecto\.idea\.idea.inventio-win\riderModule.iml" />
+    <None Include="Proyecto\.vs\inventio-win\v15\.suo" />
+    <None Include="Proyecto\.vs\inventio-win\v15\sqlite3\storage.ide" />
+    <None Include="Proyecto\inventary-win\.vs\Proyecto\DesignTimeBuild\.dtbcache" />
+    <None Include="Proyecto\inventary-win\.vs\Proyecto\v15\.suo" />
+    <None Include="Proyecto\inventary-win\.vs\Proyecto\v15\Server\sqlite3\db.lock" />
+    <None Include="Proyecto\inventary-win\.vs\Proyecto\v15\Server\sqlite3\storage.ide" />
+    <None Include="Proyecto\inventary-win\.vs\Proyecto\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include="Proyecto\inventary-win\.vs\Proyecto\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include="Proyecto\inventary-win\.vs\Proyecto\v15\sqlite3\storage.ide" />
+    <None Include="Proyecto\inventary-win\app.config" />
+    <None Include="Proyecto\inventary-win\bin\Debug\inventary-win.exe.config" />
+    <None Include="Proyecto\inventary-win\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="Proyecto\inventary-win\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Proyecto\inventary-win\obj\Debug\inventary-win.csproj.GenerateResource.Cache" />
+    <None Include="Proyecto\inventary-win\obj\Debug\inventio-win.csproj.CopyComplete" />
+    <None Include="Proyecto\inventary-win\obj\Debug\inventio-win.csproj.CoreCompileInputs.cache" />
+    <None Include="Proyecto\inventary-win\obj\Debug\inventio-win.csproj.GenerateResource.cache" />
+    <None Include="Proyecto\inventary-win\obj\Debug\inventio-win.csprojAssemblyReference.cache" />
+    <None Include="Proyecto\inventary-win\obj\Debug\inventio-win.csprojResolveAssemblyReference.cache" />
+    <None Include="Proyecto\inventary-win\obj\Release\inventio-win.csproj.CoreCompileInputs.cache" />
+    <None Include="Proyecto\inventary-win\obj\Release\inventio-win.csprojAssemblyReference.cache" />
+    <None Include="Proyecto\inventary-win\obj\x86\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Proyecto\inventary-win\obj\x86\Debug\Proyecto.csproj.CoreCompileInputs.cache" />
+    <None Include="Proyecto\inventary-win\obj\x86\Debug\Proyecto.csproj.GenerateResource.cache" />
+    <None Include="Proyecto\inventary-win\obj\x86\Debug\Proyecto.csprojAssemblyReference.cache" />
+    <None Include="Proyecto\inventary-win\obj\x86\Debug\Proyecto.csprojResolveAssemblyReference.cache" />
+    <None Include="Proyecto\inventary-win\obj\x86\Release\Proyecto.csproj.CoreCompileInputs.cache" />
+    <None Include="Proyecto\inventary-win\obj\x86\Release\Proyecto.csprojAssemblyReference.cache" />
+    <None Include="Proyecto\inventary-win\Properties\Settings.settings" />
+    <None Include="Proyecto\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Proyecto\.idea\.idea.inventario\.idea\contentModel.xml" />
+    <Content Include="Proyecto\.idea\.idea.inventario\.idea\indexLayout.xml" />
+    <Content Include="Proyecto\.idea\.idea.inventario\.idea\modules.xml" />
+    <Content Include="Proyecto\.idea\.idea.inventario\.idea\vcs.xml" />
+    <Content Include="Proyecto\.idea\.idea.inventario\.idea\workspace.xml" />
+    <Content Include="Proyecto\.idea\.idea.inventio-win\.idea\contentModel.xml" />
+    <Content Include="Proyecto\.idea\.idea.inventio-win\.idea\dataSources.xml" />
+    <Content Include="Proyecto\.idea\.idea.inventio-win\.idea\dataSources\17df5566-71b6-4bfa-b955-6d472c240c19.xml" />
+    <Content Include="Proyecto\.idea\.idea.inventio-win\.idea\indexLayout.xml" />
+    <Content Include="Proyecto\.idea\.idea.inventio-win\.idea\modules.xml" />
+    <Content Include="Proyecto\.idea\.idea.inventio-win\.idea\runConfigurations\Default.xml" />
+    <Content Include="Proyecto\.idea\.idea.inventio-win\.idea\vcs.xml" />
+    <Content Include="Proyecto\inventary-win.exe" />
+    <Content Include="Proyecto\inventary-win\bin\Debug\Google.Protobuf.dll" />
+    <Content Include="Proyecto\inventary-win\bin\Debug\inventary-win.exe" />
+    <Content Include="Proyecto\inventary-win\bin\Debug\inventary-win.pdb" />
+    <Content Include="Proyecto\inventary-win\bin\Debug\inventary-win.vshost.exe" />
+    <Content Include="Proyecto\inventary-win\bin\Debug\MySql.Data.dll" />
+    <Content Include="Proyecto\inventary-win\bin\Debug\MySql.Data.xml" />
+    <Content Include="Proyecto\inventary-win\inventarioPalomudo.sql" />
+    <Content Include="Proyecto\inventary-win\inventio-win.csproj" />
+    <Content Include="Proyecto\inventary-win\obj\Debug\inventary-win.csproj.FileListAbsolute.txt" />
+    <Content Include="Proyecto\inventary-win\obj\Debug\inventary-win.exe" />
+    <Content Include="Proyecto\inventary-win\obj\Debug\inventary-win.pdb" />
+    <Content Include="Proyecto\inventary-win\obj\Debug\inventio-win.csproj.FileListAbsolute.txt" />
+    <Content Include="Proyecto\inventary-win\obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="Proyecto\inventary-win\obj\x86\Debug\Proyecto.csproj.FileListAbsolute.txt" />
+    <Content Include="Proyecto\inventary-win\Proyecto.csproj" />
+    <Content Include="Proyecto\inventary-win\Proyecto.csproj.user" />
+    <Content Include="Proyecto\inventary-win\Proyecto.sln" />
+    <Content Include="Proyecto\inventio-win.sln" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Proyecto\inventary-win\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\AddToSellDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\AddToSellDialog.Designer.cs">
+      <DependentUpon>AddToSellDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\BarraDeCarga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\BarraDeCarga.Designer.cs">
+      <DependentUpon>BarraDeCarga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\ClasePrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\ClasePrincipal.Designer.cs">
+      <DependentUpon>ClasePrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\Connection.cs" />
+    <Compile Include="Proyecto\inventary-win\Directory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\Directory.Designer.cs">
+      <DependentUpon>Directory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\History.Designer.cs">
+      <DependentUpon>History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\Input.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\Input.Designer.cs">
+      <DependentUpon>Input.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\Inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\Inventory.Designer.cs">
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\newPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\newPerson.Designer.cs">
+      <DependentUpon>newPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\newProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\newProduct.Designer.cs">
+      <DependentUpon>newProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Proyecto\inventary-win\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Proyecto\inventary-win\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Proyecto\inventary-win\OperationObj.cs" />
+    <Compile Include="Proyecto\inventary-win\OperationWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\OperationWindow.Designer.cs">
+      <DependentUpon>OperationWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\PersonObj.cs" />
+    <Compile Include="Proyecto\inventary-win\ProductObj.cs" />
+    <Compile Include="Proyecto\inventary-win\ProductsWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\ProductsWindow.Designer.cs">
+      <DependentUpon>ProductsWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\Program.cs" />
+    <Compile Include="Proyecto\inventary-win\Properties\AssemblyInfo.cs" />
+    <Compile Include="Proyecto\inventary-win\Properties\Resources.Designer.cs" />
+    <Compile Include="Proyecto\inventary-win\Properties\Settings.Designer.cs" />
+    <Compile Include="Proyecto\inventary-win\Re.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\Re.Designer.cs">
+      <DependentUpon>Re.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\SellDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\SellDialog.Designer.cs">
+      <DependentUpon>SellDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\SellObj.cs" />
+    <Compile Include="Proyecto\inventary-win\InterfazVendedor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\InterfazVendedor.Designer.cs">
+      <DependentUpon>InterfazVendedor.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Proyecto\inventary-win\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\AddToSellDialog.resx">
+      <DependentUpon>AddToSellDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\BarraDeCarga.resx">
+      <DependentUpon>BarraDeCarga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\ClasePrincipal.resx">
+      <DependentUpon>ClasePrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\Directory.resx">
+      <DependentUpon>Directory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\History.resx">
+      <DependentUpon>History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\Input.resx">
+      <DependentUpon>Input.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\Inventory.resx">
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\newPerson.resx">
+      <DependentUpon>newPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\newProduct.resx">
+      <DependentUpon>newProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.About.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.AddToSellDialog.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.Directory.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.Form1.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.History.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.Input.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.Inventory.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.Login.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.newPerson.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.newProduct.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.OperationWindow.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.ProductsWindow.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.Properties.Resources.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.Re.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.SellDialog.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.Splash.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.About.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.AddToSellDialog.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.Directory.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.Form1.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.History.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.Input.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.Inventory.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.Login.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.newPerson.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.newProduct.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.OperationWindow.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.ProductsWindow.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.Re.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.SellDialog.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.Splash.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\Proyecto.Properties.Resources.resources" />
+    <EmbeddedResource Include="Proyecto\inventary-win\OperationWindow.resx">
+      <DependentUpon>OperationWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\ProductsWindow.resx">
+      <DependentUpon>ProductsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\Properties\Resources.resx" />
+    <EmbeddedResource Include="Proyecto\inventary-win\Re.resx">
+      <DependentUpon>Re.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\SellDialog.resx">
+      <DependentUpon>SellDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\InterfazVendedor.resx">
+      <DependentUpon>InterfazVendedor.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\Proyecto\v15\" />
+    <Folder Include="Proyecto\inventary-win\bin\Release\" />
+    <Folder Include="Proyecto\inventary-win\Connected Services\" />
+    <Folder Include="Proyecto\inventary-win\obj\x86\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
