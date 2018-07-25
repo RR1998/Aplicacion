@@ -63,7 +63,7 @@
             this.procesarToolStripMenuItem,
             this.limpiarToolStripMenuItem});
             this.ventaToolStripMenuItem.Name = "ventaToolStripMenuItem";
-            this.ventaToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.ventaToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
             this.ventaToolStripMenuItem.Text = "Venta";
             // 
             // procesarToolStripMenuItem

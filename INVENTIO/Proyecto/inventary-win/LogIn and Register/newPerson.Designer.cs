@@ -40,6 +40,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.phone = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.DUItxt = new System.Windows.Forms.TextBox();
+            this.NITtxt = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.NIT = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button2
@@ -94,9 +98,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(47, 102);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(32, 13);
+            this.label4.Size = new System.Drawing.Size(94, 13);
             this.label4.TabIndex = 15;
-            this.label4.Text = "Email";
+            this.label4.Text = "Correo Electronico";
             // 
             // label3
             // 
@@ -141,11 +145,48 @@
             this.label5.TabIndex = 22;
             this.label5.Text = "Telefono";
             // 
+            // DUItxt
+            // 
+            this.DUItxt.Location = new System.Drawing.Point(210, 152);
+            this.DUItxt.Name = "DUItxt";
+            this.DUItxt.Size = new System.Drawing.Size(222, 20);
+            this.DUItxt.TabIndex = 24;
+            // 
+            // NITtxt
+            // 
+            this.NITtxt.Location = new System.Drawing.Point(210, 179);
+            this.NITtxt.Name = "NITtxt";
+            this.NITtxt.Size = new System.Drawing.Size(222, 20);
+            this.NITtxt.TabIndex = 25;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(47, 152);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(26, 13);
+            this.label6.TabIndex = 26;
+            this.label6.Text = "DUI";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // NIT
+            // 
+            this.NIT.AutoSize = true;
+            this.NIT.Location = new System.Drawing.Point(47, 179);
+            this.NIT.Name = "NIT";
+            this.NIT.Size = new System.Drawing.Size(25, 13);
+            this.NIT.TabIndex = 27;
+            this.NIT.Text = "NIT";
+            // 
             // newPerson
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(484, 291);
+            this.Controls.Add(this.NIT);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.NITtxt);
+            this.Controls.Add(this.DUItxt);
             this.Controls.Add(this.phone);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button2);
@@ -160,7 +201,7 @@
             this.Controls.Add(this.label1);
             this.Name = "newPerson";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Nuevo Contacto";
+            this.Load += new System.EventHandler(this.newPerson_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -180,5 +221,9 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox phone;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox DUItxt;
+        private System.Windows.Forms.TextBox NITtxt;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label NIT;
     }
 }

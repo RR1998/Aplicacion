@@ -36,5 +36,15 @@ namespace Proyecto.Proyecto.inventary_win
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AgregarEmpresa_Click(object sender, EventArgs e)
+        {
+            //AGREGAR QUE EL NUMERO DE EMPRESA SEA EL DE CONTRIBUYENTE
+        }
     }
 }

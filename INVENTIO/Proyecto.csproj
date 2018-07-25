@@ -114,6 +114,7 @@
     <Content Include="Proyecto\.idea\.idea.inventio-win\.idea\modules.xml" />
     <Content Include="Proyecto\.idea\.idea.inventio-win\.idea\runConfigurations\Default.xml" />
     <Content Include="Proyecto\.idea\.idea.inventio-win\.idea\vcs.xml" />
+    <Content Include="Proyecto\Departamentos Municipios DataBank.sql" />
     <Content Include="Proyecto\inventary-win.exe" />
     <Content Include="Proyecto\inventary-win\bin\Debug\Google.Protobuf.dll" />
     <Content Include="Proyecto\inventary-win\bin\Debug\inventary-win.exe" />
@@ -121,7 +122,7 @@
     <Content Include="Proyecto\inventary-win\bin\Debug\inventary-win.vshost.exe" />
     <Content Include="Proyecto\inventary-win\bin\Debug\MySql.Data.dll" />
     <Content Include="Proyecto\inventary-win\bin\Debug\MySql.Data.xml" />
-    <Content Include="Proyecto\inventary-win\inventarioPalomudo.sql" />
+    <Content Include="Proyecto\inventary-win\InventarioPrueba.sql" />
     <Content Include="Proyecto\inventary-win\inventio-win.csproj" />
     <Content Include="Proyecto\inventary-win\obj\Debug\inventary-win.csproj.FileListAbsolute.txt" />
     <Content Include="Proyecto\inventary-win\obj\Debug\inventary-win.exe" />
@@ -133,6 +134,7 @@
     <Content Include="Proyecto\inventary-win\Proyecto.csproj.user" />
     <Content Include="Proyecto\inventary-win\Proyecto.sln" />
     <Content Include="Proyecto\inventio-win.sln" />
+    <Content Include="Proyecto\Proyecto.sql" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Proyecto\inventary-win\About.cs">
@@ -141,10 +143,22 @@
     <Compile Include="Proyecto\inventary-win\About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\AddToSellDialog.cs">
+    <Compile Include="Proyecto\inventary-win\LogIn and Register\Poveedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\AddToSellDialog.Designer.cs">
+    <Compile Include="Proyecto\inventary-win\LogIn and Register\Poveedor.Designer.cs">
+      <DependentUpon>Poveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\LogIn and Register\NewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\LogIn and Register\NewUser.Designer.cs">
+      <DependentUpon>NewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\Vendedor\AddToSellDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\Vendedor\AddToSellDialog.Designer.cs">
       <DependentUpon>AddToSellDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="Proyecto\inventary-win\BarraDeCarga.cs">
@@ -172,83 +186,95 @@
     <Compile Include="Proyecto\inventary-win\History.Designer.cs">
       <DependentUpon>History.cs</DependentUpon>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\Input.cs">
+    <Compile Include="Proyecto\inventary-win\Productos\Input.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\Input.Designer.cs">
+    <Compile Include="Proyecto\inventary-win\Productos\Input.Designer.cs">
       <DependentUpon>Input.cs</DependentUpon>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\Inventory.cs">
+    <Compile Include="Proyecto\inventary-win\Productos\Inventory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\Inventory.Designer.cs">
+    <Compile Include="Proyecto\inventary-win\Productos\Inventory.Designer.cs">
       <DependentUpon>Inventory.cs</DependentUpon>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\Login.cs">
+    <Compile Include="Proyecto\inventary-win\LogIn and Register\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\Login.Designer.cs">
+    <Compile Include="Proyecto\inventary-win\LogIn and Register\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\newPerson.cs">
+    <Compile Include="Proyecto\inventary-win\LogIn and Register\newPerson.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\newPerson.Designer.cs">
+    <Compile Include="Proyecto\inventary-win\LogIn and Register\newPerson.Designer.cs">
       <DependentUpon>newPerson.cs</DependentUpon>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\newProduct.cs">
+    <Compile Include="Proyecto\inventary-win\Productos\newProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\newProduct.Designer.cs">
+    <Compile Include="Proyecto\inventary-win\Productos\newProduct.Designer.cs">
       <DependentUpon>newProduct.cs</DependentUpon>
     </Compile>
     <Compile Include="Proyecto\inventary-win\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="Proyecto\inventary-win\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="Proyecto\inventary-win\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Proyecto\inventary-win\OperationObj.cs" />
-    <Compile Include="Proyecto\inventary-win\OperationWindow.cs">
+    <Compile Include="Proyecto\inventary-win\Productos\OperationWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\OperationWindow.Designer.cs">
+    <Compile Include="Proyecto\inventary-win\Productos\OperationWindow.Designer.cs">
       <DependentUpon>OperationWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="Proyecto\inventary-win\PersonObj.cs" />
     <Compile Include="Proyecto\inventary-win\ProductObj.cs" />
-    <Compile Include="Proyecto\inventary-win\ProductsWindow.cs">
+    <Compile Include="Proyecto\inventary-win\Productos\ProductsWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\ProductsWindow.Designer.cs">
+    <Compile Include="Proyecto\inventary-win\Productos\ProductsWindow.Designer.cs">
       <DependentUpon>ProductsWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="Proyecto\inventary-win\Program.cs" />
     <Compile Include="Proyecto\inventary-win\Properties\AssemblyInfo.cs" />
     <Compile Include="Proyecto\inventary-win\Properties\Resources.Designer.cs" />
     <Compile Include="Proyecto\inventary-win\Properties\Settings.Designer.cs" />
-    <Compile Include="Proyecto\inventary-win\Re.cs">
+    <Compile Include="Proyecto\inventary-win\Productos\Re.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\Re.Designer.cs">
+    <Compile Include="Proyecto\inventary-win\Productos\Re.Designer.cs">
       <DependentUpon>Re.cs</DependentUpon>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\SellDialog.cs">
+    <Compile Include="Proyecto\inventary-win\Vendedor\SellDialog.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\SellDialog.Designer.cs">
+    <Compile Include="Proyecto\inventary-win\Vendedor\SellDialog.Designer.cs">
       <DependentUpon>SellDialog.cs</DependentUpon>
     </Compile>
     <Compile Include="Proyecto\inventary-win\SellObj.cs" />
-    <Compile Include="Proyecto\inventary-win\InterfazVendedor.cs">
+    <Compile Include="Proyecto\inventary-win\Vendedor\InterfazVendedor.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\InterfazVendedor.Designer.cs">
+    <Compile Include="Proyecto\inventary-win\Vendedor\InterfazVendedor.Designer.cs">
       <DependentUpon>InterfazVendedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\Vendedor\Venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\Vendedor\Venta.Designer.cs">
+      <DependentUpon>Venta.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Proyecto\inventary-win\About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Proyecto\inventary-win\AddToSellDialog.resx">
+    <EmbeddedResource Include="Proyecto\inventary-win\LogIn and Register\Poveedor.resx">
+      <DependentUpon>Poveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\LogIn and Register\NewUser.resx">
+      <DependentUpon>NewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\Vendedor\AddToSellDialog.resx">
       <DependentUpon>AddToSellDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Proyecto\inventary-win\BarraDeCarga.resx">
@@ -263,19 +289,19 @@
     <EmbeddedResource Include="Proyecto\inventary-win\History.resx">
       <DependentUpon>History.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Proyecto\inventary-win\Input.resx">
+    <EmbeddedResource Include="Proyecto\inventary-win\Productos\Input.resx">
       <DependentUpon>Input.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Proyecto\inventary-win\Inventory.resx">
+    <EmbeddedResource Include="Proyecto\inventary-win\Productos\Inventory.resx">
       <DependentUpon>Inventory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Proyecto\inventary-win\Login.resx">
+    <EmbeddedResource Include="Proyecto\inventary-win\LogIn and Register\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Proyecto\inventary-win\newPerson.resx">
+    <EmbeddedResource Include="Proyecto\inventary-win\LogIn and Register\newPerson.resx">
       <DependentUpon>newPerson.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Proyecto\inventary-win\newProduct.resx">
+    <EmbeddedResource Include="Proyecto\inventary-win\Productos\newProduct.resx">
       <DependentUpon>newProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Proyecto\inventary-win\obj\Debug\inventio_win.About.resources" />
@@ -310,21 +336,24 @@
     <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.SellDialog.resources" />
     <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\inventio_win.Splash.resources" />
     <EmbeddedResource Include="Proyecto\inventary-win\obj\x86\Debug\Proyecto.Properties.Resources.resources" />
-    <EmbeddedResource Include="Proyecto\inventary-win\OperationWindow.resx">
+    <EmbeddedResource Include="Proyecto\inventary-win\Productos\OperationWindow.resx">
       <DependentUpon>OperationWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Proyecto\inventary-win\ProductsWindow.resx">
+    <EmbeddedResource Include="Proyecto\inventary-win\Productos\ProductsWindow.resx">
       <DependentUpon>ProductsWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Proyecto\inventary-win\Properties\Resources.resx" />
-    <EmbeddedResource Include="Proyecto\inventary-win\Re.resx">
+    <EmbeddedResource Include="Proyecto\inventary-win\Productos\Re.resx">
       <DependentUpon>Re.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Proyecto\inventary-win\SellDialog.resx">
+    <EmbeddedResource Include="Proyecto\inventary-win\Vendedor\SellDialog.resx">
       <DependentUpon>SellDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Proyecto\inventary-win\InterfazVendedor.resx">
+    <EmbeddedResource Include="Proyecto\inventary-win\Vendedor\InterfazVendedor.resx">
       <DependentUpon>InterfazVendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\Vendedor\Venta.resx">
+      <DependentUpon>Venta.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

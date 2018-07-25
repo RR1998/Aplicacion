@@ -39,11 +39,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(46, 31);
+            this.label1.Location = new System.Drawing.Point(272, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(239, 31);
+            this.label1.Size = new System.Drawing.Size(153, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Inventory System (Ojala no te guste esta mierda maje que se ve vergona :v)";
+            this.label1.Text = "Inventory System";
             // 
             // label2
             // 
@@ -51,7 +51,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.label2.Location = new System.Drawing.Point(49, 168);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(292, 13);
+            this.label2.Size = new System.Drawing.Size(50, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Prueba 1";
             // 
@@ -77,7 +77,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Splash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Inventory System (Ojala sirva :v )";
+            this.Text = "Inventory System";
             this.ResumeLayout(false);
             this.PerformLayout();
 
