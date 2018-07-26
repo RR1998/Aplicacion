@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -105,15 +106,23 @@ namespace Proyecto.Proyecto.inventary_win.LogIn_and_Register
                 "7. Ingrese el Usuario que utilizara, no debe contener caracteres especiales como '!, @, #, $, %, ^, &, *, (, ), [, ], {, }, /, |, comillas dobles o simples \n'"+
                 ":, ;, <, >, ., ? "+
                 "8. Ingrese su contrasena, no debe tener mas de 15 caracteres, Ejemplo de contrasena: Contrasena1@#$| \n" +
-                "si usted desa ingresar todos los datos presione el boton de aceptar, si quiere regresar al menu inicial precione cancelar");
+                "si usted desea ingresar todos los datos presione el boton de aceptar, si quiere regresar al menu inicial precione cancelar", "Ayuda", MessageBoxButtons.OK, MessageBoxIcon.Question);
         }
         public void Registrar(string Nombre, string Apellido, string Email, string DUI, string NIT, string Telefono, string User, string Password)
         {
             int IDP;
-            Connection C = new Connection("Register", "");
-            C.execute("INSERT INTO PERSONA (Nombres, Apellidos, Email, DUI, NIT, Telefono) value (\"" + Nombre + "\",\"" + Apellido + "\", \"" + Email + "\", \"" + DUI + "\", \"" + NIT + "\", \"" + Telefono + ",NOW())");
-            IDP = C.GetIDs("SELECT IDPersona FROM PERSONA WHERE DUI = \"" + DUI + ",NOW()");
-            C.execute("INSERT INTO USUARIOS(IDPersona, Usuario, Password) value(\"" + IDP + "\",\"" + User + "\", \"" + Password + ",NOW())");
+            var regexItem = new Regex("!@#$%^&*()_-+={}[]|\'';:?/>.<,");
+            if (!regexItem.IsMatch(User))
+            {
+                Connection C = new Connection("Register", "");
+                C.execute("INSERT INTO PERSONA (Nombres, Apellidos, Email, DUI, NIT, Telefono) value (\"" + Nombre + "\",\"" + Apellido + "\", \"" + Email + "\", \"" + DUI + "\", \"" + NIT + "\", \"" + Telefono + ",NOW())");
+                IDP = C.GetIDs("SELECT IDPersona FROM PERSONA WHERE DUI = \"" + DUI + ",NOW()");
+                C.execute("INSERT INTO USUARIOS(IDPersona, Usuario, Password) value(\"" + IDP + "\",\"" + User + "\", \"" + Password + ",NOW())");
+            }
+            else
+            {
+                MessageBox.Show("Su nombre de usuario no debe poseer ninguno de los siguientes caracteres: !@#$%^&*()_-+={}[]|\'';:?/>.<,", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }
