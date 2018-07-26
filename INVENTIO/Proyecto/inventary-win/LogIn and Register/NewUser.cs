@@ -77,7 +77,7 @@ namespace Proyecto.Proyecto.inventary_win.LogIn_and_Register
 
         private void Aceptar_Click(object sender, EventArgs e)
         {
-            String Nombretxt, Apellidotxt, Emailtxt, DUItxt, NITtxt, Telefonotxt, Usertxt, Passwordtxt;
+            string Nombretxt, Apellidotxt, Emailtxt, DUItxt, NITtxt, Telefonotxt, Usertxt, Passwordtxt;
             Nombretxt = Nombre.Text;
             Apellidotxt = Apellido.Text;
             Emailtxt = Email.Text;
@@ -98,7 +98,7 @@ namespace Proyecto.Proyecto.inventary_win.LogIn_and_Register
         {
             
         }
-        public void Registrar(String Nombre, String Apellido, String Email, String DUI, String NIT, String Telefono, String User, String Password)
+        public void Registrar(string Nombre, string Apellido, string Email, string DUI, string NIT, string Telefono, string User, string Password)
         {
             int IDP;
             Connection C = new Connection("Register", "");
