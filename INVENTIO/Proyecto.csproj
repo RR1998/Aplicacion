@@ -143,6 +143,12 @@
     <Compile Include="Proyecto\inventary-win\About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
+    <Compile Include="Proyecto\inventary-win\LogIn and Register\NewEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\LogIn and Register\NewEmpresa.Designer.cs">
+      <DependentUpon>NewEmpresa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Proyecto\inventary-win\LogIn and Register\Poveedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -267,6 +273,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Proyecto\inventary-win\About.resx">
       <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\LogIn and Register\NewEmpresa.resx">
+      <DependentUpon>NewEmpresa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Proyecto\inventary-win\LogIn and Register\Poveedor.resx">
       <DependentUpon>Poveedor.cs</DependentUpon>

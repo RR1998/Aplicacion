@@ -10,7 +10,7 @@ namespace inventio_win{
         public MySqlConnection con;
         public long insert_id;
         //Aun falta poder agregarle los datos a la base
-        public Connection(String User, String Password) {
+        public Connection(string User, string Password) {
             switch (User) {
                 case ("SuperUser"):
                     Coneccion(User, Password);
