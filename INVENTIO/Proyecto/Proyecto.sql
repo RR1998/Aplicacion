@@ -1,20 +1,17 @@
 CREATE DATABASE PROYECTO;
 USE PROYECTO;
+GRANT ALL PRIVILEGES ON PROYECTO.* TO 'RR1998'@'%';
 
 CREATE TABLE PERSONA(
   IDPersona INT NOT NULL AUTO_INCREMENT,
   Nombres VARCHAR(50) NOT NULL,
   Apellidos VARCHAR(50) NOT NULL,
+  Email VARCHAR(100) NOT NULL,
   DUI CHAR(9) NOT NULL, ##puede sevir como un ID individual para cada persona
   NIT CHAR(12) NOT NULL,
-  IDTelefono INT,
+  Telefono CHAR(8) NULL,
+  UNIQUE(Telefono),
   UNIQUE(IDPersona)
-);
-
-CREATE TABLE TELEFONO(
-  IDTelefono INT NOT NULL AUTO_INCREMENT,
-  Numero CHAR(8), ## Puede ser un id Individual
-  UNIQUE(IDTelefono)
 );
 
 CREATE TABLE USUARIO(
@@ -123,13 +120,14 @@ CREATE TABLE COMPRA(
 ##);
 CREATE TABLE EMPRESA(
   IDEmpresa INT NOT NULL AUTO_INCREMENT,
-  Empresa VARCHAR(150) NOT NULL, ##ID PARA EL USUARIO
   Nombre VARCHAR(50) NOT NULL,
   NIT CHAR (12) NOT NULL,
   IDMunicipio INT NOT NULL,
   Direccion VARCHAR(50)NULL,
   IDTelefono INT NOT NULL,
+  NumeroContribuyente VARCHAR(150) NOT NULL, ##ID PARA EL USUARIO
   UNIQUE(Empresa),
+  UNIQUE(NumeroContribuyente),
   UNIQUE(IDEmpresa)
 );
 

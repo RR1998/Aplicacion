@@ -226,8 +226,8 @@
     <Compile Include="Proyecto\inventary-win\Productos\OperationWindow.Designer.cs">
       <DependentUpon>OperationWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\PersonObj.cs" />
-    <Compile Include="Proyecto\inventary-win\ProductObj.cs" />
+    <Compile Include="Proyecto\inventary-win\LogIn and Register\PersonObj.cs" />
+    <Compile Include="Proyecto\inventary-win\Productos\ProductObj.cs" />
     <Compile Include="Proyecto\inventary-win\Productos\ProductsWindow.cs">
       <SubType>Form</SubType>
     </Compile>
