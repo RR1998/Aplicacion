@@ -21,7 +21,19 @@ namespace Proyecto.Proyecto.inventary_win.LogIn_and_Register
 
         private void NewUser_Load(object sender, EventArgs e)
         {
-
+            ToolTip Ayudatp = new ToolTip();
+            Ayudatp.AutoPopDelay = 2000;
+            Ayudatp.InitialDelay = 1000;
+            Ayudatp.AutoPopDelay = 500;
+            Ayudatp.SetToolTip(Nombre, "Ingrese unicamente los nombres del usuario");
+            Ayudatp.SetToolTip(Apellido, "Ingrese los apellidos del usuario");
+            Ayudatp.SetToolTip(Email, "Ingrese el correo electronico del usuario");
+            Ayudatp.SetToolTip(DUI, "Ingrese el DUI del usuario con el guion incluido");
+            Ayudatp.SetToolTip(NIT, "Ingrese el NIT del usuario con el guion incluido");
+            Ayudatp.SetToolTip(Telefono, "Ingrese el numero de telefono del usuario sin el codigo de país");
+            Ayudatp.SetToolTip(User, "Ingrese el usuario que desea ocupar recuerde que este no debe poseer caraceres especiales como: \n" +
+                "!@#$%^&*()_-+={}[]|\'';:?/>.<,");
+            Ayudatp.SetToolTip(Password, "Ingrese la contraseña que desea utilizar en su usuario recuerde que no debe sobrepasar los 15 caracteres");
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -92,7 +104,8 @@ namespace Proyecto.Proyecto.inventary_win.LogIn_and_Register
 
         private void Cancelar_Click(object sender, EventArgs e)
         {
-            
+            new MainMenu();
+            this.Close();
         }
 
         private void Ayuda_Click(object sender, EventArgs e)
@@ -111,13 +124,16 @@ namespace Proyecto.Proyecto.inventary_win.LogIn_and_Register
         public void Registrar(string Nombre, string Apellido, string Email, string DUI, string NIT, string Telefono, string User, string Password)
         {
             int IDP;
+            char Estrato = '0';
             var regexItem = new Regex("!@#$%^&*()_-+={}[]|\'';:?/>.<,");
             if (!regexItem.IsMatch(User))
             {
                 Connection C = new Connection("Register", "");
                 C.execute("INSERT INTO PERSONA (Nombres, Apellidos, Email, DUI, NIT, Telefono) value (\"" + Nombre + "\",\"" + Apellido + "\", \"" + Email + "\", \"" + DUI + "\", \"" + NIT + "\", \"" + Telefono + ",NOW())");
-                IDP = C.GetIDs("SELECT IDPersona FROM PERSONA WHERE DUI = \"" + DUI + ",NOW()");
-                C.execute("INSERT INTO USUARIOS(IDPersona, Usuario, Password) value(\"" + IDP + "\",\"" + User + "\", \"" + Password + ",NOW())");
+                IDP = C.GetInt("SELECT IDPersona FROM PERSONA WHERE DUI = \"" + DUI + ",NOW()");
+                C.execute("INSERT INTO USUARIOS(IDPersona, Usuario, Password, Estrato) value(\"" + IDP + "\",\"" + User + "\", \"" + Password + "\", \"" + Estrato + ",NOW())");
+                new MainMenu();
+                this.Close();
             }
             else
             {

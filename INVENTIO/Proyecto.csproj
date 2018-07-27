@@ -114,7 +114,6 @@
     <Content Include="Proyecto\.idea\.idea.inventio-win\.idea\modules.xml" />
     <Content Include="Proyecto\.idea\.idea.inventio-win\.idea\runConfigurations\Default.xml" />
     <Content Include="Proyecto\.idea\.idea.inventio-win\.idea\vcs.xml" />
-    <Content Include="Proyecto\Departamentos Municipios DataBank.sql" />
     <Content Include="Proyecto\inventary-win.exe" />
     <Content Include="Proyecto\inventary-win\bin\Debug\Google.Protobuf.dll" />
     <Content Include="Proyecto\inventary-win\bin\Debug\inventary-win.exe" />
@@ -149,17 +148,23 @@
     <Compile Include="Proyecto\inventary-win\LogIn and Register\NewEmpresa.Designer.cs">
       <DependentUpon>NewEmpresa.cs</DependentUpon>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\LogIn and Register\Poveedor.cs">
+    <Compile Include="Proyecto\inventary-win\LogIn and Register\NewPoveedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Proyecto\inventary-win\LogIn and Register\Poveedor.Designer.cs">
-      <DependentUpon>Poveedor.cs</DependentUpon>
+    <Compile Include="Proyecto\inventary-win\LogIn and Register\NewPoveedor.Designer.cs">
+      <DependentUpon>NewPoveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="Proyecto\inventary-win\LogIn and Register\NewUser.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Proyecto\inventary-win\LogIn and Register\NewUser.Designer.cs">
       <DependentUpon>NewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Proyecto\inventary-win\MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Proyecto\inventary-win\Vendedor\AddToSellDialog.cs">
       <SubType>Form</SubType>
@@ -277,11 +282,14 @@
     <EmbeddedResource Include="Proyecto\inventary-win\LogIn and Register\NewEmpresa.resx">
       <DependentUpon>NewEmpresa.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Proyecto\inventary-win\LogIn and Register\Poveedor.resx">
-      <DependentUpon>Poveedor.cs</DependentUpon>
+    <EmbeddedResource Include="Proyecto\inventary-win\LogIn and Register\NewPoveedor.resx">
+      <DependentUpon>NewPoveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Proyecto\inventary-win\LogIn and Register\NewUser.resx">
       <DependentUpon>NewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proyecto\inventary-win\MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Proyecto\inventary-win\Vendedor\AddToSellDialog.resx">
       <DependentUpon>AddToSellDialog.cs</DependentUpon>

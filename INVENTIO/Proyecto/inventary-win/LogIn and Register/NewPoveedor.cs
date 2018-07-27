@@ -30,6 +30,18 @@ namespace Proyecto.Proyecto.inventary_win.LogIn_and_Register
 
         private void Proveedor_Load(object sender, EventArgs e)
         {
+            ToolTip Ayudatp = new ToolTip();
+            Ayudatp.AutoPopDelay = 2000;
+            Ayudatp.InitialDelay = 1000;
+            Ayudatp.AutoPopDelay = 500;
+            Ayudatp.SetToolTip(Nombre, "Ingrese solo los nombre");
+            Ayudatp.SetToolTip(Apellido, "Ingrese los apellidos");
+            Ayudatp.SetToolTip(Email,  "Ingrese el correo electronico del proveedor");
+            Ayudatp.SetToolTip(DUI, "Ingrese el DUI del proveedor con el guion incluido");
+            Ayudatp.SetToolTip(NIT, "Ingrese el NIT del proveedor con los guiones incluidos");
+            Ayudatp.SetToolTip(Telefono, "Ingrese el numero de telefono del proveedor, sin el codigo de país");
+            Ayudatp.SetToolTip(Empresa, "Ingrese el numero de contribuyente de la empresa a la que pertenece el proveedor, si la empresa no se encuentra en el registro proceda a agregarla con el boton 'Agregar empresa'");
+            Ayudatp.SetToolTip(NProducto, "Ingrese el numero del producto que ofrece el proveedor, de no estar registrado proceda a hacerlo con el boton de 'Agregar producto'");
 
         }
 
@@ -49,7 +61,8 @@ namespace Proyecto.Proyecto.inventary_win.LogIn_and_Register
 
         private void Cancelar_Click(object sender, EventArgs e)
         {
-
+            this.Close();
+            //Funcion para abrir el menu
         }
 
         private void Ayuda_Click(object sender, EventArgs e)
@@ -71,9 +84,11 @@ namespace Proyecto.Proyecto.inventary_win.LogIn_and_Register
             var regexItem = new Regex("!@#$%^&*()_-+={}[]|\'';:?/>.<,");//regex se usa para validar caracteres especiales ams facil, ver newuser cs para detalles
             Connection C = new Connection("Register", "");
             C.execute("INSERT INTO PERSONA (Nombres, Apellidos, Email, DUI, NIT, Telefono) value (\"" + Nombre + "\",\"" + Apellido + "\", \"" + Email + "\", \"" + DUI + "\", \"" + NIT + "\", \"" + Telefono + ",NOW())");
-            IDPersona = C.GetIDs("SELECT IDPersona FROM PERSONA WHERE DUI = \"" + DUI + ",NOW()");
-            IDProducto = C.GetIDs("SELECT IDProducto FROM PRODUCTO WHERE IDProductoU = \"" + NumeroProducto + ",NOW()");
+            IDPersona = C.GetInt("SELECT IDPersona FROM PERSONA WHERE DUI = \"" + DUI + ",NOW()");
+            IDProducto = C.GetInt("SELECT IDProducto FROM PRODUCTO WHERE IDProductoU = \"" + NumeroProducto + ",NOW()");
             C.execute("INSERT INTO PROVEEDOR(IDPersona, Usuario, Password) value(\"" + NumeroContribuyente + "\",\"" + IDPersona + "\", \"" + IDProducto + ",NOW())");
+            //Funcion para regresar al menu
+            this.Close();
         }
     }
 }

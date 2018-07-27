@@ -19,6 +19,7 @@ CREATE TABLE USUARIO(
   IDPersona INT NOT NULL,
   Usuario VARCHAR(8) NOT NULL,
   Password VARCHAR(15) NOT NULL,
+  Estrato CHAR(1) NOT NULL,##0= basico, 1 = vendedor, 2 = administrador, 3 = super Usuario
   UNIQUE(Usuario),
   UNIQUE(IDUsuario)
 );

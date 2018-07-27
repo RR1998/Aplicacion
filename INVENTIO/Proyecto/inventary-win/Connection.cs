@@ -40,16 +40,18 @@ namespace inventio_win{
             this.con.Close();
             this.insert_id = cmd.LastInsertedId;
         }
-        public int GetIDs(String sql)
+
+        public int GetInt(String sql)//Usar funcion para sacar cualquier entero que se necesite
         {
-            int ID;
+            int Int;
             MySqlCommand cmd = this.con.CreateCommand();
             cmd.CommandText = sql;
             this.con.Open();
-            ID = cmd.ExecuteNonQuery();
+            Int = cmd.ExecuteNonQuery();
             this.con.Close();
-            return ID;
+            return Int;
         }
+
         public void Coneccion(String User, String Password){
             try
             {

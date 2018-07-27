@@ -19,6 +19,19 @@ namespace Proyecto.Proyecto.inventary_win.LogIn_and_Register
             InitializeComponent();
         }
 
+        private void NewEmpresa_Load(object sender, EventArgs e)
+        {
+            ToolTip Ayudatp = new ToolTip();
+            Ayudatp.AutoPopDelay = 2000;
+            Ayudatp.InitialDelay = 1000;
+            Ayudatp.AutoPopDelay = 500;
+            Ayudatp.SetToolTip(NombreEmpresa, "Ingrese el nombre de la empresa");
+            Ayudatp.SetToolTip(NIT, "Ingrese el NIT de la empresa con los guiones ingluidos");
+            Ayudatp.SetToolTip(Direccion, "Ingrese la direccion completa de la empresa");
+            Ayudatp.SetToolTip(Telefono, "Ingrese el telefono de la empresa");
+            Ayudatp.SetToolTip(NContribuyente, "Ingrese el numero de contribuyente de la empresa");
+        }
+
         private void Aceptar_Click(object sender, EventArgs e)
         {
             string Nombretxt, NITtxt, Direcciontxt, Telefonotxt, NContribuyentetxt;
@@ -40,7 +53,8 @@ namespace Proyecto.Proyecto.inventary_win.LogIn_and_Register
 
         private void Cancelar_Click(object sender, EventArgs e)
         {
-
+            this.Close();
+            //Funcion para abrir el menu inicial de nuevo
         }
 
         private void Registrar(string Nombre, string NIT, string Direccion, string Telefono, string NContribuyente)
@@ -49,6 +63,8 @@ namespace Proyecto.Proyecto.inventary_win.LogIn_and_Register
             if (!regexItem.IsMatch(Nombre)) { 
                 Connection C = new Connection("Register", "");
                 C.execute("INSERT INTO EMPRESA (Nombre, NIT, Direccion, Telefono, NumeroContribuyente) VALUE(\"" + Nombre + "\",\"" + NIT + "\", \"" + Direccion + "\", \"" + Telefono + "\",\"" + NContribuyente + "\", NOW())");
+                new MainMenu();
+                this.Close();
             }
             else
             {

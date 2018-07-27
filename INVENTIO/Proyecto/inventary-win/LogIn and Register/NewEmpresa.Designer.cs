@@ -173,6 +173,7 @@
             this.Controls.Add(this.NIT);
             this.Name = "NewEmpresa";
             this.Text = "Registro Empresa";
+            this.Load += new System.EventHandler(this.NewEmpresa_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
