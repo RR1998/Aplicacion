@@ -35,6 +35,11 @@ namespace Proyecto.Proyecto.inventary_win
         private void MainMenu_Load(object sender, EventArgs e, string Usuario)
         {
             int Grade, ID;
+            ToolTip tp = new ToolTip();
+            tp.AutoPopDelay = 2000;
+            tp.InitialDelay = 1000;
+            tp.ReshowDelay = 500;
+            tp.SetToolTip(Opciones, "Seleccione la opcion que desea escoger y luego presione el boton aceptar");
             NombreUsuario.Text = Usuario;//puede cambiar para ser el nombre real del usuario o sol oel username
             Connection C = new Connection("","");//Cambiar usuario y pass solo de consulta en el switch de conexion
             ID = (C.GetInt("SELECT IDPusuario FROM USUARIO WHERE Usuario = \"" + Usuario + ",NOW()"));
@@ -58,8 +63,10 @@ namespace Proyecto.Proyecto.inventary_win
                     Opciones.Items.Add(new Item("Ver registro de compras", 5));
                     Opciones.Items.Add(new Item("Inventario", 6));
                     Opciones.Items.Add(new Item("Ver productos", 7));
+                    Opciones.Items.Add(new Item("Aprobar descuento", 8));
+                    Opciones.Items.Add(new Item("Aprovar devolucion", 9));
                     break;
-                case (4):
+                case (3):
                     Opciones.Items.Add(new Item("Administrar Usuarios", 1));
                     Opciones.Items.Add(new Item("Administrar", 2));
                     Opciones.Items.Add(new Item("Vender", 3));
@@ -68,6 +75,8 @@ namespace Proyecto.Proyecto.inventary_win
                     Opciones.Items.Add(new Item("Ver registro de compras", 6));
                     Opciones.Items.Add(new Item("Inventario", 7));
                     Opciones.Items.Add(new Item("Ver productos", 8));
+                    Opciones.Items.Add(new Item("Aprobar descuento", 9));
+                    Opciones.Items.Add(new Item("Aprobar devolucion", 10));
                     break;
             }
         }
@@ -131,16 +140,23 @@ namespace Proyecto.Proyecto.inventary_win
                     break;
                 case "Inventario":
                     break;
+                case "Aprobar descuento":
+                    //funcion para aprobar descuentos
+                    break;
+                case "Aprobar devolucion":
+                    //funcion para aprobar devolucion
+                    break;
             }
         }
 
         private void Cancelar_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void Ayuda_Click(object sender, EventArgs e)
         {
+            
 
         }
     }

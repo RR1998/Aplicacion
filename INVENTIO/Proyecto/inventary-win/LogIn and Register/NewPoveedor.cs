@@ -33,7 +33,7 @@ namespace Proyecto.Proyecto.inventary_win.LogIn_and_Register
             ToolTip Ayudatp = new ToolTip();
             Ayudatp.AutoPopDelay = 2000;
             Ayudatp.InitialDelay = 1000;
-            Ayudatp.AutoPopDelay = 500;
+            Ayudatp.ReshowDelay = 500;
             Ayudatp.SetToolTip(Nombre, "Ingrese solo los nombre");
             Ayudatp.SetToolTip(Apellido, "Ingrese los apellidos");
             Ayudatp.SetToolTip(Email,  "Ingrese el correo electronico del proveedor");

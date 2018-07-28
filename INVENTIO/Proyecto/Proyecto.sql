@@ -63,7 +63,7 @@ CREATE TABLE PRODUCTO(
   IDProveedor INT NOT NULL,
   IDCompra INT NOT NULL,
   IDVenta INT NULL,
-  Cantidad INT,
+  Cantidad INT NOT NULL,
   FechaCaducidad DATE NOT NULL,
   UNIQUE(IDProductoU),
   UNIQUE(IDProducto)

@@ -114,7 +114,7 @@
             this.Cancelar.Name = "Cancelar";
             this.Cancelar.Size = new System.Drawing.Size(75, 23);
             this.Cancelar.TabIndex = 7;
-            this.Cancelar.Text = "Cancelar";
+            this.Cancelar.Text = "Cerrar";
             this.Cancelar.UseVisualStyleBackColor = true;
             this.Cancelar.Click += new System.EventHandler(this.Cancelar_Click);
             // 
