@@ -22,7 +22,7 @@ namespace inventio_win
             if (name.Text != "" && lastname.Text != "")
             {
 
-                Connection c = new Connection();
+                Connection c = new Connection("","");
 
                 c.execute("insert into person (name,lastname,address1,email1,phone1,kind,created_at) value(\"" + name.Text + "\",\"" + lastname.Text + "\",\"" + address.Text + "\",\"" + email.Text + "\",\"" + phone.Text + "\","+kind+",NOW() )");
                 MessageBox.Show("Contacto agregado exitosamente!");
