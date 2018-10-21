@@ -30,7 +30,7 @@ namespace inventio_win
 
             }
         }
-
+        
         private void newPerson_Load(object sender, EventArgs e)
         {
 
